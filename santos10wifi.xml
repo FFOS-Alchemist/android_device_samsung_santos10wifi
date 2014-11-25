@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<manifest>
+
+  <remote fetch="https://github.com/firefoxOS-x86" name="ffosx86" />
+  <include name="base-kk-aosp.xml"/>
+
+
+  <!-- santos10wifi things -->
+  <project path="device/samsung/santos10wifi" name="android_device_samsung_santos10wifi" remote="ffosx86" />
+</manifest>
